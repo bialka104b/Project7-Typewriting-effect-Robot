@@ -1,0 +1,50 @@
+$font-family: "Grandstander", cursive;
+$font-color: chartreuse;
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: darkslategrey;
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.robot {
+  width: 40%;
+  padding: 5%;
+}
+.typing {
+  width: 50%;
+  font-family: $font-family;
+  font-size: 40px;
+  color: $font-color;
+  font-weight: 700;
+  padding: 5%;
+  p {
+    margin: 0;
+    line-height: 150%;
+    text-shadow: 0 0 2px $font-color;
+    &::before {
+      content: "> ";
+    }
+    &:nth-last-of-type(1) {
+      //pierwszy od końca
+      &::after {
+        content: "_";
+        animation: cursorLastP 0.5s infinite alternate;
+      }
+    }
+  }
+}
+
+@keyframes cursorLastP {
+    0%, 30%{
+        opacity: 0;
+    }
+    70%, 100% {
+        opacity: 1;
+    }
+}

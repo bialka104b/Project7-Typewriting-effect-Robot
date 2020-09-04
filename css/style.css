@@ -1,0 +1,68 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: darkslategrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.robot {
+  width: 40%;
+  padding: 5%;
+}
+
+.typing {
+  width: 50%;
+  font-family: "Grandstander", cursive;
+  font-size: 40px;
+  color: chartreuse;
+  font-weight: 700;
+  padding: 5%;
+}
+
+.typing p {
+  margin: 0;
+  line-height: 150%;
+  text-shadow: 0 0 2px chartreuse;
+}
+
+.typing p::before {
+  content: "> ";
+}
+
+.typing p:nth-last-of-type(1)::after {
+  content: "_";
+  -webkit-animation: cursorLastP 0.5s infinite alternate;
+          animation: cursorLastP 0.5s infinite alternate;
+}
+
+@-webkit-keyframes cursorLastP {
+  0%, 30% {
+    opacity: 0;
+  }
+  70%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes cursorLastP {
+  0%, 30% {
+    opacity: 0;
+  }
+  70%, 100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
