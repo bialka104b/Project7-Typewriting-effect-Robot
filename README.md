@@ -41,7 +41,7 @@
 
 ## :dart: About
 
-<ol start=251>
+<ol start=251 style="font-weight:700">
   <li>Adds animation cursor in css, initialization file index.html, style.scss, index.js and adds file SVG<br>
   <span>(commit 73bd124d48d64695f04538a4edd65b3e3e011d63)</span>
   </li>
@@ -54,6 +54,10 @@
   </li>
 
   <li>Multiple text supportand use of strings table<br>
+  <span>(commit cfc085c5d186e7bf5ee7ad5c62c2c0ffdfb59cb6)</span>
+  </li>
+
+  <li>Optimization and completion animation<br>
   <span></span>
   </li>
 </ol>
