@@ -40,8 +40,12 @@
 <br>
 
 ## :dart: About ##
-
-251.Adds animation cursor in css, initialization file index.html, style.scss, index.js and adds file SVG
+<ol start=251>
+<li>Adds animation cursor in css, initialization file index.html, style.scss, index.js and adds file SVG
+<small>(commit 73bd124d48d64695f04538a4edd65b3e3e011d63)</small>
+</li>
+<li> Typing function, Adding letters from under the thong index</li>
+</ol>
 
 ## :sparkles: Features ##
 
