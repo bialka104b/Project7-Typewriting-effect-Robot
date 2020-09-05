@@ -1,7 +1,7 @@
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="Project7 Typewriting Effect" />
 
-  &#xa0;
+&#xa0;
 
   <!-- <a href="https://project7typewritingeffect.netlify.app">Demo</a> -->
 </div>
@@ -21,9 +21,9 @@
 
 <!-- Status -->
 
-<!-- <h4 align="center"> 
+<!-- <h4 align="center">
 	🚧  Project7 Typewriting Effect 🚀 Under construction...  🚧
-</h4> 
+</h4>
 
 <hr> -->
 
@@ -39,24 +39,27 @@
 
 <br>
 
-## :dart: About ##
+## :dart: About
+
 <ol start=251>
 <li>Adds animation cursor in css, initialization file index.html, style.scss, index.js and adds file SVG<br>
 <span>(commit 73bd124d48d64695f04538a4edd65b3e3e011d63)</span>
 </li>
-<li> Typing function, Adding letters from under the thong index</li>
-<br><span>(commit e7d4c20493a03f0c51df2699ca74cdfea3892e69)</span></li>
-RequestAnimationFrame and pace animation liter
-<br><span></span></li>
+
+<li> Typing function, Adding letters from under the thong index<br>
+<span>(commit e7d4c20493a03f0c51df2699ca74cdfea3892e69)</span>
+</li>
+<li>RequestAnimationFrame and pace animation liter<br>
+<span></span>
+</li>
 </ol>
 
-## :sparkles: Features ##
+## :sparkles: Methods used
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: requestAnimationFrame();\
+:heavy_check_mark: substr();\
 
-## :rocket: Technologies ##
+## :rocket: Technologies
 
 The following tools were used in this project:
 
@@ -64,11 +67,11 @@ The following tools were used in this project:
 - [Scss]
 <!-- - [Node.js](https://nodejs.org/en/) -->
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed and plugin Live Sass compiler for Visual Studio Code.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
 ```bash
 # Clone this project
@@ -79,10 +82,9 @@ $ cd project7-typewriting-effect
 
 ```
 
-## :memo: License ##
+## :memo: License
 
-
-Made with :heart: by <a href="https://github.com/{{bialka104b}}" target="_blank">{{bialka104b}}</a>
+Made with :heart: by <a href="https://github.com/bialka104b" target="_blank">{{bialka104b}}</a>
 
 &#xa0;
 
