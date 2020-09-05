@@ -58,6 +58,10 @@
   </li>
 
   <li>Optimization and completion animation<br>
+  <span>(commit 1cb49942d49fa214db105b063d87452d7b0f8e25)</span>
+  </li>
+
+<li>Additional functions (createElement p)<br>
   <span></span>
   </li>
 </ol>
@@ -66,7 +70,9 @@
 
 :heavy_check_mark: requestAnimationFrame();\
 :heavy_check_mark: substr();\
-:heavy_check_mark: setTimeout();
+:heavy_check_mark: setTimeout();\
+:heavy_check_mark: createElement();\
+:heavy_check_mark: appendChild();
 
 ## :rocket: Technologies
 
