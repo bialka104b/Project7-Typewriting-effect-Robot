@@ -72,8 +72,12 @@
   </li>
 
   <li>275.Legs animation and fixed trunk animation<br>
+  <span>(commit 166503c2e8c91514f7e2e06b4814e299480d1abb)</span><br>
+  </li>
+
+  <li>276.Animation blinking<br>
   <span></span><br>
-  <div align="center"><img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" /></div>
+  <div align="center"><img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_2.jpg" alt="276.Animation blinking" /></div>
   </li>
 </ol>
 

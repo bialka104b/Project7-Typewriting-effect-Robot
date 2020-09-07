@@ -1,4 +1,3 @@
-
 const move_bars = () => {
   const timeline_bars = new TimelineMax({
     onComplete: move_bars,
@@ -17,15 +16,16 @@ const move_bars = () => {
   timeline_bars.set(voice_bars_child, {
     y: -30, //przesynięcie o -30px transform Y
     transformOrigin: "50% 50%",
+    fill:"rgb(72, 179, 230)"
   });
   timeline_bars.staggerFromTo(
     voice_bars_child,
     0.5, //czas trwania animacji
     {
       y: -30,
-      delay:0.1,
+      delay: 0.1,
       scaleY: scale, //powiększamy wysokość obiektu razy 2
-      //yoyo: true, //działaj w dwie strony(alternate)
+      yoyo: true, //działaj w dwie strony(alternate)
       repeat: 1, //dziłaj raz
       fill: color,
     },
@@ -36,6 +36,7 @@ const move_bars = () => {
       repeat: 1, //dziłaj raz
       fill: color,
       y: -30,
+      yoyo:true
     },
     0.1, //opóźnienie każdego z elementów
   );
@@ -67,16 +68,17 @@ const move_bars1 = () => {
     1, //czas trwania animacji
     {
       y: -30,
-      delay:0.1,
+      delay: 0.1,
       scaleY: 1, //powiększamy wysokość obiektu razy 2
-      //yoyo: true, //działaj w dwie strony(alternate)
+      yoyo: true, //działaj w dwie strony(alternate)
       repeat: 1, //dziłaj raz
       fill: color,
     },
     {
+      transformOrigin: "50% 50%",
       scaleY: scale, //powiększamy wysokość obiektu razy 2
       delay: 0.2, //opóźnienie
-      //yoyo: true, //działaj w dwie strony(alternate)
+      yoyo: true, //działaj w dwie strony(alternate)
       repeat: 1, //dziłaj raz
       fill: color,
       y: -30,
@@ -88,7 +90,28 @@ const move_bars1 = () => {
 };
 
 const blink_eyes = () => {
-  const timeline_bars = new TimelineMax();
+  const timeline_bars = new TimelineMax({
+    repeat: -1,
+    repeatDelay: 2,
+  });
+  const eyes = document.querySelectorAll("#eye-left, #eye-right");
+  timeline_bars
+    .set(eyes, {
+      transformOrigin: "50% 50%",
+      delay:2,
+    })
+    .to(
+      //bo na obu naraz chcemy wykonywac animacje
+      eyes,
+      0.15,
+      {fill: "#231f20", scaleY: 0},
+      "+=0.1",
+    )
+    .to(eyes, 0.2, {fill: "#48b3e6", scaleY: 1}, "+=0.1")
+    .to(eyes, 0.03, {fill: "#231f20", scaleY: 0}, "+=0.1")
+    .to( eyes, 0.1, {fill: "#48b3e6", scaleY: 1}, "+=0.3")
+    .to(eyes, 0.08, {fill: "#231f20", scaleY: 0}, "+=0.1")
+    .to( eyes, 0.05, {fill: "#48b3e6", scaleY: 1}, "+=0.05");
   return timeline_bars;
 };
 
@@ -98,22 +121,19 @@ const move_legs = (legs) => {
     legs,
     0.2,
     {
-      y:-50, 
+      y: -50,
       repeat: -1, //dziłaj w nieskończoność
       yoyo: true, //działaj w dwie strony(alternate)
     },
-    0.25
+    0.25,
   );
   return timeline_bars;
 };
 
 //Master time line
 const master = new TimelineMax();
-master.add('start');//obie te animacje maja wykonać się w tym samym czasie a nie jedna po drugiej
+master.add("start"); //obie te animacje maja wykonać się w tym samym czasie a nie jedna po drugiej
 const legs = document.querySelectorAll("#leg-right, #leg-left");
 master.add(move_legs(legs)); //wywołanie
-
-
-// Dwie animacje na tułowiu
 master.add(move_bars(), "start"); //wywołanie tułowia
-
+master.add(blink_eyes(), "start"); //wywołanie tułowia
