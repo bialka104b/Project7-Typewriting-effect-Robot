@@ -23,6 +23,11 @@ body {
   padding: 5%;
 }
 
+.robot #robot {
+  height: 90vmin;
+  margin: auto;
+}
+
 .typing {
   width: 50%;
   font-family: "Grandstander", cursive;

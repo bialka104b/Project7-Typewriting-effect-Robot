@@ -61,7 +61,11 @@
   <span>(commit 1cb49942d49fa214db105b063d87452d7b0f8e25)</span>
   </li>
 
-<li>Additional functions (createElement p)<br>
+  <li>256. Additional functions (createElement p)<br>
+  <span>(commit bd1876fbb489189474c5795b12f88d939a07b0e6)</span>
+  </li>
+
+  <li>274.Trunk animation<br>
   <span></span>
   </li>
 </ol>
@@ -72,7 +76,10 @@
 :heavy_check_mark: substr();\
 :heavy_check_mark: setTimeout();\
 :heavy_check_mark: createElement();\
-:heavy_check_mark: appendChild();
+:heavy_check_mark: appendChild();\
+:heavy_check_mark: starggerFromTo();set();\
+:heavy_check_mark: set();\
+:heavy_check_mark: add();
 
 ## :rocket: Technologies
 
@@ -80,7 +87,7 @@ The following tools were used in this project:
 
 - [Javascript]
 - [Scss]
-<!-- - [Node.js](https://nodejs.org/en/) -->
+- [GSAP](https://greensock.com/docs)
 
 ## :white_check_mark: Requirements
 
@@ -94,7 +101,6 @@ $ git clone https://github.com/{{bialka104b}}/project7-typewriting-effect
 
 # Access
 $ cd project7-typewriting-effect
-
 ```
 
 ## :memo: License
