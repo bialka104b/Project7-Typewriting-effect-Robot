@@ -67,7 +67,7 @@
 
   <li>274.Trunk animation<br>
   <span></span><br>
-  <img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" />
+  <center><img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" /><center>
   </li>
 </ol>
 
