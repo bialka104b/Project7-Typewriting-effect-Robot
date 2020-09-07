@@ -76,7 +76,7 @@
   </li>
 
   <li>276.Animation blinking<br>
-  <span></span><br>
+  <span>(commit 7b2aa71ffb0c00abde51954f05a6794e00b195da)</span><br>
   <div align="center"><img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_2.jpg" alt="276.Animation blinking" /></div>
   </li>
 </ol>
