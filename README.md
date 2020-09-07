@@ -54,8 +54,7 @@
   </li>
 
   <li>Multiple text supportand use of strings table<br>
-  <span>(commit cfc085c5d186e7bf5ee7ad5c62c2c0ffdfb59cb6)</span>
-  <img  style="margin:0 auto" width="200"  src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_1.jpg" alt="274.Trunk animation" />
+  <img  style="margin:0 auto" width="200"  src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_1.jpg" alt="274.Trunk animation" /><br><span>(commit cfc085c5d186e7bf5ee7ad5c62c2c0ffdfb59cb6)</span>
   </li>
 
   <li>Optimization and completion animation<br>
@@ -67,8 +66,8 @@
   </li>
 
   <li>274.Trunk animation<br>
-  <span></span>
-  <img width="200"  style="margin:0 auto" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" />
+  <span></span><br>
+  <img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" />
   </li>
 </ol>
 
