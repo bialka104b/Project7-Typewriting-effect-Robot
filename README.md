@@ -70,6 +70,11 @@
   <span></span><br>
   <div align="center"><img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" /></div>
   </li>
+
+  <li>275.Legs animation and fixed trunk animation<br>
+  <span></span><br>
+  <div align="center"><img width="200" left="200px" src="https://github.com/bialka104b/Project7-Typewriting-effect-Robot/blob/master/img/Screenshot_5.jpg" alt="274.Trunk animation" /></div>
+  </li>
 </ol>
 
 ## :sparkles: Methods used
